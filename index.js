@@ -1,9 +1,10 @@
 import { LitElement, html } from 'lit-element';
+import './app/app.js';
 
 class IndexElement extends LitElement {
   render() {
     return html`
-      <h1>This is a component</h1>
+      <app-element></app-element>
     `;
   }
 }
