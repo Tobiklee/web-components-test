@@ -13,7 +13,11 @@
     "prod": "parcel build index.html"
   },
   "devDependencies": {
-    "parcel-bundler": "^1.12.4"
+    "eslint-config-prettier": "^6.9.0",
+    "eslint-plugin-prettier": "^3.1.2",
+    "install": "^0.13.0",
+    "parcel-bundler": "^1.12.4",
+    "prettier": "^1.19.1"
   },
   "dependencies": {
     "lit-element": "^2.2.1"
