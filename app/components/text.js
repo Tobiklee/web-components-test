@@ -1,9 +1,17 @@
-import { LitElement, html } from 'lit-element';
+import { LitElement, html, css } from 'lit-element';
 
 class TextElement extends LitElement {
+  static get styles() {
+    return css`
+      .text {
+        text-align: center;
+      }
+    `;
+  }
+
   render() {
     return html`
-      <p>This is a text</p>
+      <p class="text">WebComponents are awesome ...</p>
     `;
   }
 }

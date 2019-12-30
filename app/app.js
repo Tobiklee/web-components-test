@@ -5,8 +5,10 @@ import './components/text.js';
 class AppElement extends LitElement {
   render() {
     return html`
-      <headline-element></headline-element>
-      <text-element></text-element>
+      <div>
+        <headline-element></headline-element>
+        <text-element></text-element>
+      </div>
     `;
   }
 }
